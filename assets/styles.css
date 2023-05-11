@@ -58,9 +58,12 @@ table {
 	border-spacing: 0;
 }
 
-body {
+* {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+body {
   background: linear-gradient(130deg, #fffdd9 0%, #fffae6 100%);
   font-family: 'ATypewriter', times;
   color: #1f1e1c;
