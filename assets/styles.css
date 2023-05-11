@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'ATypewriter';
+  src: url('atlas-typewriter-regular.eot');
+  src: url('atlas-typewriter-regular.eot?#iefix') format('embedded-opentype'),
+      url('atlas-typewriter-regular.woff2') format('woff2'),
+      url('atlas-typewriter-regular.woff') format('woff'),
+      url('atlas-typewriter-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: linear-gradient(130deg, #fffdd9 0%, #fffae6 100%);
+  font-family: 'ATypewriter', times;
+  color: #1f1e1c;
+}
+
+div {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 1120px;
+  flex-direction: column-reverse;
+  padding: 1rem;
+  margin-top: 1rem;
+
+}
+  @media only screen and (min-width: 767px) {
+    div {
+      padding: 0;
+      margin-top: 6rem;
+    }
+  }
+
+  @media only screen and (min-width: 420px) {
+    div {
+      flex-direction: row;
+      padding: 2rem;
+      margin-top: 4rem
+    }
+  }
+
+aside {
+  width: 100%;
+  /* animation: ${keyframe.fadeIn('2rem, 0')} 150ms ease-in-out; */
+}
+  @media only screen and (min-width: 420px) {
+    aside {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    aside {
+      position: relative;
+      width: 45%
+    }
+  }
+
+img {
+  display: block;
+  position: relative;
+  width: 100%;
+  opacity: 0.85;
+}
+
+main {
+  position: relative;
+  margin-bottom: 2rem;
+  /*animation: ${keyframe.fadeIn('2rem, 0')} 500ms ease-in-out;*/
+}
+  @media only screen and (min-width: 767px) {
+    main {
+      width: 65%;
+      margin-left: -7rem;
+      margin-top: 4rem;
+    }
+  }
+
+h1, h2 {
+  max-width: 40ch;
+  line-height: 1.625;
+}
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 1.375rem;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 420px) {
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 2.25rem;
+    }
+
+    h2 {
+      margin-bottom: 3rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    h1 {
+      margin-bottom: 1.875rem;
+      font-size: 2.625rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 3.75rem;
+    }
+  }
